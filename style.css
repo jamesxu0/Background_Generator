@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+body {
+
+	font-family: 'Teko', sans-serif;
+    color: rgba(0,0,0,.6);
+    text-align: center;
+    text-transform: uppercase;
+	background: linear-gradient(180deg, red , yellow);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+.container-fluid {
+    margin-top: 30px;
+}
+
+h1 {
+    font: 600 3.5em 'Teko', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 50px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+h3 {
+	font: 900 1em 'Teko', sans-serif;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+
+h4 {
+   
+    border-bottom: 2px solid rgba(0,0,0,.4);
+    width: 35%;
+    margin: 10px auto;
+
+}
+
+.btn {
+    padding: 1px 10px;
+    text-align: center
+}
+
+ul { 
+    display:table;
+    margin:0 auto; 
+    list-style: none
+}
+
+li {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 24px;
+    border: 2px solid white;
+}
+
+.slider {
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sliderValue  {
+    display: inline;
+}
+
