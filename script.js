@@ -87,7 +87,7 @@ function setRandomColors() {
 	color2.value = secondColor;
 	css.textContent = body.style.background + ";";
 
-	if (historyCount < 11) {
+	if (historyCount < 10) {
 		historyCount++;
 		addToHistory();
 	} else {
